@@ -9,7 +9,7 @@ Basic Shortened-URL API
 
 Using Docker:
 - Download `shortened-url-0.0.1-SNAPSHOT.jar` file from Releases.
-- Run docker run -p 8080:8080 -v `pwd`:/mnt java:8 java -jar mnt/shortened-url-0.0.1-SNAPSHOT.jar (make sure to run this command from same directory as your jar file or specify path to jar while running docker command)
+- Run `docker run -p 8080:8080 -v path-to-jar:/mnt java:8 java -jar mnt/shortened-url-0.0.1-SNAPSHOT.jar` (make sure to run this command from same directory as your jar file or specify path to jar while running docker command)
 
 Spring Boot Run:
 - Download and extract Maven 3.6 from https://maven.apache.org/download.cgi. Make sure `MAVEN_HOME` ENV Var is present in the PATH
